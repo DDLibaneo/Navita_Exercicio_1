@@ -10,9 +10,26 @@ namespace Exercicio1_AlgoritmoBasico
     {
         public static int LargestNumberOnNFamily(int number)
         {
+            var resultString = "";
+            var numbers = new List<int>();
 
+            var charArray = number.ToString().ToArray();
 
-            return number;
+            foreach (var c in charArray)
+                numbers.Add(Convert.ToInt32(c.ToString()));
+
+            numbers.Sort();
+            numbers.Reverse();
+
+            foreach (var n in numbers)
+                resultString += n.ToString();
+
+            var result = Convert.ToInt32(resultString);
+
+            if (result > 99999999)
+                return -1;
+
+            return result;
         }
     }
 }
