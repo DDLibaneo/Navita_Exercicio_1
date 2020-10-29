@@ -9,10 +9,8 @@ namespace Exercicio1_AlgoritmoBasico
     class Program
     {
         static void Main(string[] args)
-        {
-            bool endApplication = false;            
-
-            while (!endApplication)
+        {            
+            while (true)
             {
                 Console.WriteLine("Insira um numero inteiro.");
 
@@ -32,8 +30,10 @@ namespace Exercicio1_AlgoritmoBasico
 
                 Console.WriteLine("Aperte qualquer tecla para recomeçar, ESC para encerrar a aplicação.");
 
-                if (Console.ReadKey().Key == ConsoleKey.Escape)
+                if (Console.ReadKey(true).Key == ConsoleKey.Escape)
                     return;
+
+                Console.WriteLine("\n");
             }
         }
     }
