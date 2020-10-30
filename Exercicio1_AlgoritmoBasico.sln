@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30011.22
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercicio1_AlgoritmoBasico", "Exercicio1_AlgoritmoBasico\Exercicio1_AlgoritmoBasico.csproj", "{1D569B37-1946-4CD0-A793-498FD484E6CE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercicio1_AlgoritmoBasico.UnitTests", "Exercicio1_AlgoritmoBasico.UnitTests\Exercicio1_AlgoritmoBasico.UnitTests.csproj", "{53272263-4561-4D76-80A1-196C99FF1451}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1D569B37-1946-4CD0-A793-498FD484E6CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D569B37-1946-4CD0-A793-498FD484E6CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D569B37-1946-4CD0-A793-498FD484E6CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D569B37-1946-4CD0-A793-498FD484E6CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53272263-4561-4D76-80A1-196C99FF1451}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53272263-4561-4D76-80A1-196C99FF1451}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53272263-4561-4D76-80A1-196C99FF1451}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53272263-4561-4D76-80A1-196C99FF1451}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2EDC7A53-44D3-46DA-9F8A-2F6B7A771CBC}
+	EndGlobalSection
+EndGlobal
