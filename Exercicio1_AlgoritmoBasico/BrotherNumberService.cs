@@ -26,7 +26,7 @@ namespace Exercicio1_AlgoritmoBasico
 
             var result = Convert.ToInt32(resultString);
 
-            if (result > 99999999)
+            if (result >= 100000000)
                 return -1;
 
             return result;
